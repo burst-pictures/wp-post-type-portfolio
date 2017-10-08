@@ -38,7 +38,7 @@ function register_portfolio_type_taxonomy() {
 		'add_or_remove_items'        => __( 'Add or remove project types', 'burst-portfolio' ),
 		'choose_from_most_used'      => __( 'Choose from the most used project types', 'burst-portfolio' ),
 		'not_found'                  => __( 'No project types found.', 'burst-portfolio' ),
-		'menu_name'                  => __( 'Project Types', 'burst-portfolio' ),
+		'menu_name'                  => __( 'Types', 'burst-portfolio' ),
 	);
 
 	$args = array(

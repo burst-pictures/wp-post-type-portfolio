@@ -51,7 +51,7 @@ function init_constants() {
 function init_hooks() {
 	register_activation_hook( __FILE__, __NAMESPACE__ . '\activate_plugin' );
 	register_deactivation_hook( __FILE__, __NAMESPACE__ . '\deactivate_plugin' );
-	register_uninstall_hook( __FILE__, __NAMESPACE__ . '\uninstall_plugin' )
+	register_uninstall_hook( __FILE__, __NAMESPACE__ . '\uninstall_plugin' );
 }
 
 /**
